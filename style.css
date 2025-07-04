@@ -2,10 +2,10 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
+    --cor-de-fundo: #1e6e33;
+    --fundo-senha: #49d906;
+    --fundo-texto: #044114;
+    --borda: #29f026;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -105,6 +105,16 @@ body{
 .parametro-senha{
     width: 50%;
     margin: 0 auto;
+}
+
+label{
+    font-size: 20px;
+}
+
+.checkbox{
+    width:20px;
+    height: 20px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
