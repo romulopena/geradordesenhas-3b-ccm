@@ -2,7 +2,7 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #1e6e33;
+    --cor-de-fundo: #002e0c;
     --fundo-senha: #49d906;
     --fundo-texto: #044114;
     --borda: #29f026;
@@ -115,6 +115,38 @@ label{
     width:20px;
     height: 20px;
     cursor: pointer;
+}
+
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.fraca{
+    width: 25%;
+    background-color: #E71B32; 
+}
+
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.media{
+    background-color: #FAF408;
+    width: 50%;
+}
+
+.forte{
+    background-color: #00FF85;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
